@@ -451,22 +451,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/9_project/";
-            },},{id: "projects-ultrasonic-ranging-system",
+          section: "News",},{id: "projects-ultrasonic-ranging-system",
           title: 'Ultrasonic Ranging System',
           description: "Real-time distance measurement system using Arduino and HC-SR04 sensor with I2C LCD display output.",
           section: "Projects",handler: () => {
