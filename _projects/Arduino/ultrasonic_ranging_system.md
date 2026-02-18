@@ -9,7 +9,7 @@ category: hardware
 
 ## Overview
 
-A real-time ranging system built around an Arduino microcontroller and the HC-SR04 ultrasonic sensor. The system continuously measures distance up to 400 cm and displays live readings on an I2C LCD, making it useful as a foundation for obstacle detection, robotics, or proximity-sensing applications.
+This is a project is built on a simple breadboard. The main project compponets are a HC-SR02 ultrasonic sensor, LCD 16x2 screen, Arduino uno R3. 
 
 ---
 
@@ -27,7 +27,7 @@ A real-time ranging system built around an Arduino microcontroller and the HC-SR
 
 ## How It Works
 
-The HC-SR04 sensor works by emitting a short 40 kHz ultrasonic pulse from its **TRIG** pin and listening for the echo on the **ECHO** pin. The time-of-flight of the pulse is used to calculate distance using the speed of sound:
+The HC-SR04 sensor works by emitting a short 40 kHz ultrasonic pulse from its "TRIG" pin and listening for the echo on the "ECHO" pin. The time-of-flight of the pulse is used to calculate distance using the speed of sound:
 
 ```
 Distance (cm) = (Echo pulse duration in µs) / 58
