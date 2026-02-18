@@ -496,6 +496,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/al-folio/projects/9_project/";
+            },},{id: "projects-ultrasonic-ranging-system",
+          title: 'Ultrasonic Ranging System',
+          description: "Real-time distance measurement system using Arduino and HC-SR04 sensor with I2C LCD display output.",
+          section: "Projects",handler: () => {
+              window.location.href = "/al-folio/projects/Arduino/ultrasonic_ranging_system/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
