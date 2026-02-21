@@ -2,7 +2,7 @@
 layout: page
 title: Ultrasonic Ranging System
 description: Real-time distance measurement system using Arduino and HC-SR04 sensor with I2C LCD display output.
-img: assets/img/ultrasonic/thumbnail.jpg   # update with your actual image path
+img: assets/img/ultrasonicFinished/assembled.jpg
 importance: 1
 category: hardware
 ---
@@ -119,15 +119,14 @@ The system measured distances accurately across the full rated range of the HC-S
   </div>
   <div class="col-sm-4 mt-3 mt-md-0">
     {% include figure.liquid path="assets/img/ultrasonic/assembled.jpg" title="Assembled circuit" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/ultrasonic/lcd_output.jpg" title="LCD showing live distance" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/ultrasonic/ultrasonicFinished.jpeg" title="Assembled circuit" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
-  Left: wiring setup. Center: assembled circuit on breadboard. Right: LCD displaying a live distance reading.
+  Assembled ultrasonic ranging system on breadboard with LCD display.
 </div>
-
 ---
 
 *February 2026 — Personal Project*
